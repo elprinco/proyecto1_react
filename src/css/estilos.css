@@ -7,3 +7,39 @@
     padding: 10px;
     margin: 8px;
 }
+.footer{
+
+    background-color: rgb(10, 82, 68);
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    margin: 8px;
+}
+
+.btn{
+    
+    background-color: rgb(186, 11, 11);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    margin: 8px;
+
+
+}
+.btn2{
+    
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    margin: 8px;
+
+
+}

@@ -1,22 +1,31 @@
-import React from "react";
+import React from 'react'
 import './css/estilos.css'
+import Usuarios from './components/Usuarios'
+import Footer from './components/Footer'
+import Boton from './components/Boton'
+import Boton2 from './components/Boton2'
 
 const App = () => {
 
-const saludos = "Curso de React - INTECAP"
-const nombre = "Edgar Rafael Choy alvarado"
-    
-    return(
-      <>
+  const sesion = false;
 
-      <h1 className="titulo">{saludos}</h1>
+  return (
+    <>
+      {sesion ?
+        <>
+          <Usuarios />
+          <Footer />
+        </> :
+        <>
+          <h1 className='titulo'>Debes Iniciar Sesión</h1>
+          <Boton/>
+          <Boton2/>
+          <Footer/>
+          </>
+        }
 
-    <p className="titulo"> {nombre}</p>
-      
-      
-      
-      </>
-    )
+        </>
+  )
 }
 
-export default App
+      export default App
